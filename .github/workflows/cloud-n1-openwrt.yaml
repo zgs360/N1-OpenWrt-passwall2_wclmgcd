@@ -1,13 +1,7 @@
 name: Cloud N1 OpenWrt
 
 on:
-  push:
   
-    paths:
-      - 'README.md'
-      - 'script.sh'
-      - 'config.sh'
-
  workflow_dispatch:
    inputs:
       ssh:
