@@ -34,6 +34,6 @@ svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/
 # rm -rf feeds/luci/themes/luci-theme-argon
 
 #主题
-# git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
 
-# sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' ./feeds/luci/collections/luci/Makefile
+sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' ./feeds/luci/collections/luci/Makefile
