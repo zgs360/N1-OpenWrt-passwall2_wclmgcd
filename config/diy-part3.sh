@@ -4,10 +4,10 @@
 # sed -i 's/TARGET_rockchip/TARGET_rockchip\|\|TARGET_armvirt/g' package/lean/autocore/Makefile
 
 # Modify default IP
-sed -i 's/192.168.1.1/192.168.1.2/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.2.3/g' package/base-files/files/bin/config_generate
 
 #修改密码
-# sed -i 's/^root:.*:/root:$1$KVHNuqbv$4X2BPbtsXn2AApknHIn38.:0:0:99999:7:::/g' package/base-files/files/etc/shadow
+# sed -i 's/^root:.*:/root:$1$sKnYlDLr$7fZvROo6z5iKO9FIYGEbf0:18248:0:99999:7:::/g' package/base-files/files/etc/shadow
 
 # => alist
 # rm -rf feeds/packages/lang/golang
@@ -21,7 +21,7 @@ sed -i 's/192.168.1.1/192.168.1.2/g' package/base-files/files/bin/config_generat
 # git clone https://github.com/lisaac/luci-app-dockerman.git package/luci-app-dockerman
 
 # => openclash
-#git clone https://github.com/vernesong/OpenClash.git package/luci-app-openclash
+git clone https://github.com/vernesong/OpenClash.git package/luci-app-openclash
 
 # => passwall2
 git clone https://github.com/xiaorouji/openwrt-passwall-packages.git -b main package/passwall_package
