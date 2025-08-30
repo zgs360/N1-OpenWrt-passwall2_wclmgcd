@@ -29,7 +29,7 @@ git clone https://github.com/xiaorouji/openwrt-passwall2.git package/passwall2
 
 # git clone https://github.com/douglarek/luci-app-homeproxy package/luci-app-homeproxy
 # git clone https://github.com/pexcn/openwrt-chinadns-ng.git package/chinadns-ng
-svn co https://github.com/ophub/luci-app-amlogic/tree/main/luci-app-amlogic package/luci-app-amlogic
+# svn co https://github.com/ophub/luci-app-amlogic/tree/main/luci-app-amlogic package/luci-app-amlogic
 # => 删除默认argon主题
 # rm -rf feeds/luci/themes/luci-theme-argon
 
